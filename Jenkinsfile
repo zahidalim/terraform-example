@@ -9,7 +9,7 @@ pipeline {
            }
         }
       } // stage -1
-    stage("terraform-script"){
+    stage("terraform-script")
       {
         steps{
           script{
@@ -18,5 +18,5 @@ pipeline {
           }
         }
       }
-  }
+    }
 }
