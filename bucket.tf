@@ -1,8 +1,7 @@
 # Specify the GCP Provider
-
 provider "google" {
-project  = var.project_id
-region   = var.region
+project = var.project_id
+region  = var.region
 }
 
 data "google_iam_policy" "admin" {
